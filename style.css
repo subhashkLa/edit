@@ -8,7 +8,6 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     line-height: 1.5;
-    /* overflow: hidden; */
 }
 
 h1 {
@@ -124,7 +123,7 @@ header {
     color: #f1f1f1;
 }
 
-.sidenav .closeBtn {
+.sideNav .closeBtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -145,4 +144,46 @@ header {
 
 .home-btn:hover {
     color: #FFFFFF;
+}
+
+.bg-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 30%;
+    right: 0;
+    z-index: -1;
+}
+
+/* Feature */
+
+.feature {
+    height: 100%;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title::after {
+    content: "";
+    width: 60px;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    background-color: #6DD568;
+}
+
+.moreFeature {
+    height: 100%;
+    padding: 100px 0px;
+}
+
+.moreFeature-Content {
+    width: 100%;
+    height: 329px;
+    background-color: #F1F3F7;
+    background-color: #818181;
+    border-radius: 40px;
 }
