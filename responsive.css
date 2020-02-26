@@ -1,79 +1,321 @@
-@media screen and (max-width: 700px) {
-    a {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 480px) {
+    h1 {
         font-family: 'Poppins';
         font-style: normal;
-        font-size: 18px;
-        line-height: 27px;
-        color: #2A2A2A;
+        font-weight: bold;
+        font-size: 44px;
+        color: #2C2C2C;
     }
-    h1 {
-        font-family: Poppins;
+    h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: #2C2C2C;
+    }
+    h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        color: #2C2C2C;
+    }
+    h4 {
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: bold;
         font-size: 32px;
-        line-height: 48px;
+        color: #2C2C2C;
     }
-    p {
-        font-family: Poppins;
+    h5 {
+        font-family: 'Poppins';
         font-style: normal;
-        font-weight: 600;
-        font-size: 22px;
-        line-height: 33px;
-    }    
-    /* Home */
-    .bg-color {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 30%;
+        font-weight: bold;
+        font-size: 28px;
+        color: #2C2C2C;
+    }
+    h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        color: #2C2C2C;
+    }
+    a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #2C2C2C;
+    }
+    a:hover {
+        color: #2A2A2A;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        color: #2C2C2C;
+    }
+    h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: #2C2C2C;
+    }
+    h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        color: #2C2C2C;
+    }
+    h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #2C2C2C;
+    }
+    h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        color: #2C2C2C;
+    }
+    h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        color: #2C2C2C;
+    }
+    a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #2C2C2C;
+    }
+    a:hover {
+        color: #2A2A2A;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width : 1024px) {
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        color: #2C2C2C;
+    }
+    h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: #2C2C2C;
+    }
+    h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        color: #2C2C2C;
+    }
+    h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #2C2C2C;
+    }
+    h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        color: #2C2C2C;
+    }
+    h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        color: #2C2C2C;
+    }
+    a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #2C2C2C;
+    }
+    a:hover {
+        color: #2A2A2A;
+    }
+    header {
+        padding: 0px 0px 0px 0px;
+    }
+    .navbar {
+        position: fixed;
         right: 0;
-        z-index: -1; 
+        left: 0;
+        z-index: 999;
+        padding: 10px 10px 0px 10px;
+        background-color: thistle;
     }
-    .bg-color {
-        background: linear-gradient(143.2deg, #6DD568 19.21%, #20611D 93.4%);
+    .navbar-nav {
+        display: none;
     }
-    .bg-color {
-        border-bottom-left-radius: 100% 30%;
-        border-bottom-right-radius: 100% 30%;
+    .bars {
+        display: block;
     }
-    .hero-img img {
-        height: 100px;
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (max-width : 1024px) {
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        color: #2C2C2C;
+    }
+    h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: #2C2C2C;
+    }
+    h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        color: #2C2C2C;
+    }
+    h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #2C2C2C;
+    }
+    h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        color: #2C2C2C;
+    }
+    h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        color: #2C2C2C;
+    }
+    a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #2C2C2C;
+    }
+    a:hover {
+        color: #2A2A2A;
     }
 
-    /* Collaboration */
-    .col-color {
-        width: 100%;
-        height: 539px;
-        z-index: -1;
-        background-color: #F1F3F7;
-    }
-    .col-color {
-        width: 100%;
-        height: 539px;
-        z-index: -1;
-        background-color: #F1F3F7;
-    }
+}
 
-    .col-color {
-        border-top-left-radius: 100% 30%;
-        border-top-right-radius: 100% 30%;
-        border-bottom-left-radius: 100% 30%;
-        border-bottom-right-radius: 100% 30%;
+/* iPads (portrait) ----------- */
+@media only screen and (max-width : 1024px) {
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        color: #2C2C2C;
     }
-    .col-color {
-        padding: 10px;
+    h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: #2C2C2C;
     }
+    h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        color: #2C2C2C;
+    }
+    h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #2C2C2C;
+    }
+    h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        color: #2C2C2C;
+    }
+    h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        color: #2C2C2C;
+    }
+    a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #2C2C2C;
+    }
+    a:hover {
+        color: #2A2A2A;
+    }
+}
 
-    .con-color {
-        width: 100%;
-        z-index: -1;
-        padding: 100px 30px;
-        background-color: #F1F3F7;
-    }
-    .con-color {
-        border-top-left-radius: 100% 30%;
-        border-top-right-radius: 100% 30%;
-        border-bottom-left-radius: 100% 30%;
-        border-bottom-right-radius: 100% 30%;
-    }
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+}
+ 
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen and (max-width : 568px) {
+
+}
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+
+}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+
 }
