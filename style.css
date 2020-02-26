@@ -187,3 +187,38 @@ header {
     background-color: #818181;
     border-radius: 40px;
 }
+
+/* Why Choose Invock */
+
+.wic {
+    height: 100%;
+    padding: 100px 0px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #818181;
+}
+
+/*  */
+.blog {
+    height: 100%;
+    padding: 100px 0px;
+}
+
+/* Blog */
+.card {
+    background-color: #F1F3F7;;
+    border-radius: 25px;
+}
+
+.card-img-top {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.blog-btn {
+    border-radius: 40px;
+}
