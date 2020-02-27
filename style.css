@@ -14,7 +14,7 @@ h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 4rem;
     color: #2C2C2C;
 }
 
@@ -22,7 +22,7 @@ h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 3rem;
     color: #2C2C2C;
 }
 
@@ -30,7 +30,7 @@ h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 2rem;
     color: #2C2C2C;
 }
 
@@ -38,7 +38,7 @@ h4 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 1rem;
     color: #2C2C2C;
 }
 
@@ -46,7 +46,7 @@ h5 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 0.5rem;
     color: #2C2C2C;
 }
 
@@ -54,7 +54,7 @@ h6 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 0.2rem;
     color: #2C2C2C;
 }
 
@@ -62,7 +62,7 @@ p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 2rem;
 }
 
 a {
@@ -202,13 +202,18 @@ header {
     background-color: #818181;
 }
 
-/*  */
-.blog {
+/* Testimonials */
+.testimonials {
     height: 100%;
     padding: 100px 0px;
 }
 
 /* Blog */
+.blog {
+    height: 100%;
+    padding: 100px 0px;
+}
+
 .card {
     background-color: #F1F3F7;;
     border-radius: 25px;
