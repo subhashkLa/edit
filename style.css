@@ -3,7 +3,7 @@
 }
 
 body {
-    padding: 0;
+    padding: 0 130px 0px 130px;
     margin: 0;
     font-family: 'Poppins';
     font-style: normal;
@@ -13,8 +13,8 @@ body {
 h1 {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: bold;
-    font-size: 4rem;
+    font-weight: 700;
+    font-size: 2.75rem;
     color: #2C2C2C;
 }
 
@@ -22,7 +22,7 @@ h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 1.875rem;
     color: #2C2C2C;
 }
 
@@ -30,7 +30,7 @@ h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.125rem;
     color: #2C2C2C;
 }
 
@@ -53,16 +53,12 @@ h5 {
 h6 {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: bold;
-    font-size: 0.2rem;
     color: #2C2C2C;
 }
 
 p {
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.375rem;
 }
 
 a {
@@ -77,8 +73,8 @@ a:hover {
     color: #2A2A2A;
 }
 
-
 /* Header */
+
 header {
     width: 100%;
     height: 100%;
@@ -192,30 +188,126 @@ header {
 
 .wic {
     height: 100%;
-    padding: 100px 0px;
+    padding: 40px;
+    /* background: #F1F3F7; */
+    border-radius: 25px;
 }
 
 .circle {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.07);
     background-color: #818181;
 }
 
+.pricing {
+    position: relative;
+    text-align: center;
+    border: 1px solid #eee;
+    background-color: #fff;
+    z-index: 11;
+    margin: 15px 0
+}
+
+.pricing::after {
+    content: "";
+    background-color: #1c1d21;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 0%;
+    z-index: -1;
+    -webkit-transition: .2s height;
+    transition: .2s height
+}
+
+.pricing:hover:after {
+    height: 100%
+}
+
+.pricing .price-head {
+    position: relative;
+    margin-bottom: 20px
+}
+
+.pricing .price-title {
+    display: block;
+    padding: 40px 0 20px;
+    text-transform: uppercase;
+    -webkit-transition: .2s color;
+    transition: .2s color
+}
+
+.pricing:hover .price-title {
+    color: #6195ff
+}
+
+.pricing .price {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid #6195ff
+}
+
+.pricing .price h3 {
+    font-size: 42px;
+    margin: 0;
+    -webkit-transition: .2s color;
+    transition: .2s color;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+    left: 0;
+    right: 0
+}
+
+.pricing:hover .price h3 {
+    color: #fff
+}
+
+.pricing .duration {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #10161a;
+    -webkit-transition: .2s color;
+    transition: .2s color
+}
+
+.pricing:hover .duration {
+    color: #fff
+}
+
+.pricing .price-btn {
+    padding-top: 20px;
+    padding-bottom: 40px
+}
+
 /* Testimonials */
+
 .testimonials {
     height: 100%;
     padding: 100px 0px;
 }
 
 /* Blog */
+
 .blog {
     height: 100%;
     padding: 100px 0px;
 }
 
 .card {
-    background-color: #F1F3F7;;
+    background-color: #F1F3F7;
+    ;
     border-radius: 25px;
 }
 
@@ -226,4 +318,270 @@ header {
 
 .blog-btn {
     border-radius: 40px;
+}
+
+/* Contact Us */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+    overflow: hidden;
+    padding-bottom: 200px;
+}
+
+.section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font: 300 60px 'Oswald', sans-serif;
+    letter-spacing: 6px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.contact-wrapper {
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+    max-width: 800px;
+}
+
+/* Begin Left Contact Page */
+
+.form-horizontal {
+    float: left;
+    max-width: 400px;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+.form-control, textarea {
+    max-width: 400px;
+    background-color: #111;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.button {
+    width: 400px;
+    height: 34px;
+    transition: all .2s ease-in-out;
+}
+
+.send-text {
+    display: block;
+    margin-top: 10px;
+    font: 300 14px 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+
+.direct-contact-container {
+    max-width: 400px;
+    float: right;
+    margin-top: 5px;
+}
+
+/* Location, Phone, Email Section */
+
+.contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+}
+
+.list-item {
+    line-height: 4;
+    color: #aaa;
+}
+
+.contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+}
+
+.place {
+    margin-left: 62px;
+}
+
+.phone {
+    margin-left: 56px;
+}
+
+.gmail {
+    margin-left: 53px;
+}
+
+.contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Social Media Icons */
+
+.social-media-list {
+    position: relative;
+    font-size: 2.3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.social-media-list li a {
+    color: #fff;
+}
+
+.social-media-list li {
+    position: relative;
+    top: 0;
+    left: -20px;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    margin: 10px auto;
+    line-height: 70px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+    background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+    opacity: 1;
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+    color: #111;
+}
+
+.copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+hr {
+    border-color: rgba(255, 255, 255, .8);
+    ;
+}
+
+/* Begin Media Queries*/
+
+@media screen and (max-width: 760px) {
+    #contact {
+        height: 1000px;
+    }
+    .section-header {
+        font-size: 65px;
+    }
+    .direct-contact-container, .form-horizontal {
+        float: none;
+        margin: 10px auto;
+    }
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 300px;
+    }
+    .social-media-list li {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+    .social-media-list li:after {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    #contact {
+        height: 1200px;
+    }
+    .section-header {
+        font-size: 50px;
+    }
+    .direct-contact-container, .form-wrapper {
+        float: none;
+        margin: 0 auto;
+    }
+    .form-control, textarea {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    .name, .email, textarea {
+        width: 280px;
+    }
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 280px;
+    }
+    .social-media-list {
+        left: 0;
+    }
+    .social-media-list li {
+        height: 55px;
+        width: 55px;
+        line-height: 55px;
+        font-size: 2rem;
+    }
+    .social-media-list li:after {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .send-button {
+        width: 99%;
+    }
 }
