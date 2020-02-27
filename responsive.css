@@ -1,4 +1,3 @@
-/* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width : 480px) {
     h1 {
         font-family: 'Poppins';
@@ -124,6 +123,10 @@
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (max-width : 1024px) {
+    body {
+        padding: 0;
+        text-align: center;
+    }
     h1 {
         font-family: 'Poppins';
         font-style: normal;
@@ -198,6 +201,18 @@
     }
     .bars {
         display: block;
+    }
+    .featureImg {
+        padding-left: 0;
+    }
+    .featureContent {
+        padding-right: 0;
+    }
+    .featureImg1 {
+        padding: 0 0 0 0;
+    }
+    .featureContent1 {
+        padding-left: 0;
     }
 }
 

@@ -3,7 +3,7 @@
 }
 
 body {
-    padding: 0 130px 0px 130px;
+    padding: 0px 130px 0px 130px;
     margin: 0;
     font-family: 'Poppins';
     font-style: normal;
@@ -14,8 +14,8 @@ h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 2.75rem;
-    color: #2C2C2C;
+    font-size: 1.875em;
+    color: #2A2A2A;
 }
 
 h2 {
@@ -23,7 +23,7 @@ h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 1.875rem;
-    color: #2C2C2C;
+    color: #2A2A2A;
 }
 
 h3 {
@@ -31,7 +31,7 @@ h3 {
     font-style: normal;
     font-weight: bold;
     font-size: 1.125rem;
-    color: #2C2C2C;
+    color: #2A2A2A;
 }
 
 h4 {
@@ -39,7 +39,7 @@ h4 {
     font-style: normal;
     font-weight: bold;
     font-size: 1rem;
-    color: #2C2C2C;
+    color: #2A2A2A;
 }
 
 h5 {
@@ -47,18 +47,18 @@ h5 {
     font-style: normal;
     font-weight: bold;
     font-size: 0.5rem;
-    color: #2C2C2C;
+    color: #2A2A2A;
 }
 
 h6 {
     font-family: 'Poppins';
     font-style: normal;
-    color: #2C2C2C;
+    color: #2A2A2A;
 }
 
 p {
     font-family: 'Poppins';
-    font-size: 1.375rem;
+    font-size: 1.5em;
 }
 
 a {
@@ -66,7 +66,7 @@ a {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    color: #2C2C2C;
+    color: #2A2A2A;
 }
 
 a:hover {
@@ -155,7 +155,7 @@ header {
 
 .feature {
     height: 100%;
-    padding: 20px;
+    padding: 200px 0px 200px 0px;
 }
 
 .title {
@@ -180,129 +180,63 @@ header {
     width: 100%;
     height: 329px;
     background-color: #F1F3F7;
-    background-color: #818181;
     border-radius: 40px;
+}
+
+.featureImg {
+    padding-left: 20%;
+}
+
+.featureContent {
+    padding-right: 20%;
+}
+
+.featureImg1 {
+    padding: 10% 0 10% 14%;
+}
+
+.featureContent1 {
+    padding-left: 30%;
 }
 
 /* Why Choose Invock */
 
 .wic {
     height: 100%;
-    padding: 40px;
-    /* background: #F1F3F7; */
-    border-radius: 25px;
+    padding: 200px 0px 200px 0px;
+}
+
+.wic-content {
+    width: 100%;
+    border-radius: 40px;
+    padding: 30px 10px 10px 30px;
+    background-color: #F1F3F7;
 }
 
 .circle {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.07);
     background-color: #818181;
 }
 
-.pricing {
-    position: relative;
-    text-align: center;
-    border: 1px solid #eee;
-    background-color: #fff;
-    z-index: 11;
-    margin: 15px 0
+/* sff */
+.sff {
+    height: 100%;
+    padding: 200px 0px 200px 0px;
 }
-
-.pricing::after {
-    content: "";
-    background-color: #1c1d21;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 0%;
-    z-index: -1;
-    -webkit-transition: .2s height;
-    transition: .2s height
-}
-
-.pricing:hover:after {
-    height: 100%
-}
-
-.pricing .price-head {
-    position: relative;
-    margin-bottom: 20px
-}
-
-.pricing .price-title {
-    display: block;
-    padding: 40px 0 20px;
-    text-transform: uppercase;
-    -webkit-transition: .2s color;
-    transition: .2s color
-}
-
-.pricing:hover .price-title {
-    color: #6195ff
-}
-
-.pricing .price {
-    position: relative;
-    width: 140px;
-    height: 140px;
-    line-height: 140px;
-    text-align: center;
-    margin: auto;
-    border-radius: 50%;
-    border: 2px solid #6195ff
-}
-
-.pricing .price h3 {
-    font-size: 42px;
-    margin: 0;
-    -webkit-transition: .2s color;
-    transition: .2s color;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    top: 50%;
-    position: absolute;
-    left: 0;
-    right: 0
-}
-
-.pricing:hover .price h3 {
-    color: #fff
-}
-
-.pricing .duration {
-    display: block;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #10161a;
-    -webkit-transition: .2s color;
-    transition: .2s color
-}
-
-.pricing:hover .duration {
-    color: #fff
-}
-
-.pricing .price-btn {
-    padding-top: 20px;
-    padding-bottom: 40px
-}
-
 /* Testimonials */
 
 .testimonials {
     height: 100%;
-    padding: 100px 0px;
+    padding: 200px 0px 200px 0px;
 }
 
 /* Blog */
 
 .blog {
     height: 100%;
-    padding: 100px 0px;
+    padding: 200px 0px 200px 0px;
 }
 
 .card {
@@ -322,15 +256,9 @@ header {
 
 /* Contact Us */
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
 #contact {
     width: 100%;
-    height: 100vh;
-    background-color: #111;
+    height: 100%;
     overflow: hidden;
     padding-bottom: 200px;
 }
@@ -364,7 +292,6 @@ body {
 
 .form-control, textarea {
     max-width: 400px;
-    background-color: #111;
     color: #fff;
     letter-spacing: 1px;
 }
