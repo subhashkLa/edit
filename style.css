@@ -12,53 +12,41 @@ body {
 
 h1 {
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.875em;
     color: #2A2A2A;
+    font-size: 2.750em;
+    font-weight: 700;
 }
 
 h2 {
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.875rem;
     color: #2A2A2A;
 }
 
 h3 {
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.125rem;
     color: #2A2A2A;
 }
 
 h4 {
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1rem;
     color: #2A2A2A;
 }
 
 h5 {
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.5rem;
     color: #2A2A2A;
 }
 
 h6 {
     font-family: 'Poppins';
-    font-style: normal;
     color: #2A2A2A;
 }
 
 p {
     font-family: 'Poppins';
-    font-size: 1.5em;
+    font-weight: 300;
+    font-size: 1.375em;
+    color: #2A2A2A;
 }
 
 a {
@@ -74,6 +62,7 @@ a:hover {
 }
 
 .title {
+    font-size: 2.250em;
     text-align: center;
 }
 
@@ -84,6 +73,10 @@ a:hover {
     display: block;
     margin: 10px auto;
     background-color: #6DD568;
+}
+
+.img-thumbnail {
+    background-color: transparent;
 }
 
 .circle {
@@ -162,13 +155,23 @@ header {
     color: #FFFFFF;
 }
 
+.home-content {
+    padding: 100px 0px 0px 0px;
+}
+
+.home-content h1 {
+    font-size: 2.750em;
+    color: #2A2A2A;
+    font-weight: 700;
+}
+.home-content p {
+    font-weight: 300;
+    font-size: 1.375em;
+    color: #2A2A2A;
+}
+
 .bg-color {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 30%;
-    right: 0;
-    z-index: -1;
+    display: none;
 }
 
 .img-thumbnail {
@@ -181,6 +184,51 @@ header {
     height: 100%;
     padding: 90px 130px 0px 130px;
 }
+
+.feature-content {
+    padding-top: 140px;
+}
+
+.feature-header1 {
+    display: none;
+}
+
+.featureContent {
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+.featureContent h2 {
+    font-size: 1.875em;
+    font-weight: 700;
+}
+
+.featureContent p {
+    padding: 20px 50px 0px 50px;
+    font-size: 1.500em;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.featureContent2 {
+    text-align: center;
+    padding: 180px 0px 0px 200px;
+}
+
+.featureContent2 h2 {
+    font-size: 1.875em;
+    font-weight: 700;
+}
+
+.featureContent2 p {
+    padding: 20px 50px 0px 50px;
+    font-size: 1.500em;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+
 
 /* More Feature */
 

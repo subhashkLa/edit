@@ -1,193 +1,12 @@
-@media only screen and (max-width : 480px) {
-    h1 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        color: #2C2C2C;
-    }
-    h2 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        color: #2C2C2C;
-    }
-    h3 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        color: #2C2C2C;
-    }
-    h4 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        color: #2C2C2C;
-    }
-    h5 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        color: #2C2C2C;
-    }
-    h6 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 12px;
-        color: #2C2C2C;
-    }
-    p {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-    }
-    a {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        color: #2C2C2C;
-    }
-    a:hover {
-        color: #2A2A2A;
-    }
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-    h1 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        color: #2C2C2C;
-    }
-    h2 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        color: #2C2C2C;
-    }
-    h3 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        color: #2C2C2C;
-    }
-    h4 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        color: #2C2C2C;
-    }
-    h5 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        color: #2C2C2C;
-    }
-    h6 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 12px;
-        color: #2C2C2C;
-    }
-    p {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-    }
-    a {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        color: #2C2C2C;
-    }
-    a:hover {
-        color: #2A2A2A;
-    }
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1200px) {
     body {
         padding: 0;
-    }
-    h1 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        color: #2C2C2C;
-    }
-    h2 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        color: #2C2C2C;
-    }
-    h3 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        color: #2C2C2C;
-    }
-    h4 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        color: #2C2C2C;
-    }
-    h5 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        color: #2C2C2C;
-    }
-    h6 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 12px;
-        color: #2C2C2C;
-    }
-    p {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-    }
-    a {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        color: #2C2C2C;
-    }
-    a:hover {
-        color: #2A2A2A;
     }
 
     /* Header */
     header {
-        padding: 0px 0px 0px 0px;
+        height: 100vh;
+        padding: 0px 20px 10px 20px;
     }
     .navbar {
         position: fixed;
@@ -200,32 +19,32 @@
     .navbar-nav {
         display: none;
     }
-
-    .bg-color {
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 35%;
-        background-color: green;
-        border-bottom-left-radius: 100% 30%;
-        border-bottom-right-radius: 100% 30%;
+/* 
+    /* .bg-color::after {
+        content: "";
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 500px auto 0;
+        background-color: #F1F3F7;
+    } */ */
+    .home-content {
+        padding-top: 20px 0px 0px 190px;2
     }
-
     .home-content h1 {
-        color: white;
+        /* color: white; */
+        color: #2A2A2A;
+        font-size: 2.000em;
     }
 
     .home-content p {
         color: white;
+        color: #2A2A2A;
+        font-size: 0.875em;
     }
 
     .header-img {
-        width: 100%;
-        height: 100%;
-        padding: 10px;
-        border-radius: 10px;
-        margin-top: 30px;
+        display: none;
     }
 
     .bars {
@@ -234,19 +53,24 @@
 
     /* Feature */
     .feature {
-        padding: 0px 20px 100px 20px;
+        padding: 0px 10px 100px 10px;
     }
-    .featureImg {
-        padding-left: 0;
+
+    .feature-header1 {
+        display: block;
+        font-size: 1.375em;
+        font-weight: 300;
     }
-    .featureContent {
-        padding-right: 0;
+
+    .featureContent .feature-header2 {
+        display: none;
     }
-    .featureImg1 {
-        padding: 0 0 0 0;
-    }
-    .featureContent1 {
-        padding-left: 0;
+
+    .featureContent p {
+        /* padding: 20px 50px 0px 50px; */
+        font-size: 0.875em;
+        font-weight: 300;
+        line-height: 45px;
     }
 
     /* Why Choose Invock */
@@ -314,127 +138,3 @@
 
 }
 
-/* iPads (landscape) ----------- */
-@media only screen and (max-width : 1024px) {
-    h1 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        color: #2C2C2C;
-    }
-    h2 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        color: #2C2C2C;
-    }
-    h3 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        color: #2C2C2C;
-    }
-    h4 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        color: #2C2C2C;
-    }
-    h5 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        color: #2C2C2C;
-    }
-    h6 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 12px;
-        color: #2C2C2C;
-    }
-    p {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-    }
-    a {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        color: #2C2C2C;
-    }
-    a:hover {
-        color: #2A2A2A;
-    }
-
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (max-width : 1024px) {
-    h1 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        color: #2C2C2C;
-    }
-    h2 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        color: #2C2C2C;
-    }
-    h3 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        color: #2C2C2C;
-    }
-    h4 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        color: #2C2C2C;
-    }
-    h5 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        color: #2C2C2C;
-    }
-    h6 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 12px;
-        color: #2C2C2C;
-    }
-    p {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-    }
-    a {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        color: #2C2C2C;
-    }
-    a:hover {
-        color: #2A2A2A;
-    }
-}
