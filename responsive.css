@@ -125,7 +125,6 @@
 @media only screen and (max-width : 1024px) {
     body {
         padding: 0;
-        text-align: center;
     }
     h1 {
         font-family: 'Poppins';
@@ -185,6 +184,8 @@
     a:hover {
         color: #2A2A2A;
     }
+
+    /* Header */
     header {
         padding: 0px 0px 0px 0px;
     }
@@ -199,8 +200,41 @@
     .navbar-nav {
         display: none;
     }
+
+    .bg-color {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 35%;
+        background-color: green;
+        border-bottom-left-radius: 100% 30%;
+        border-bottom-right-radius: 100% 30%;
+    }
+
+    .home-content h1 {
+        color: white;
+    }
+
+    .home-content p {
+        color: white;
+    }
+
+    .header-img {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
     .bars {
         display: block;
+    }
+
+    /* Feature */
+    .feature {
+        padding: 0px 20px 100px 20px;
     }
     .featureImg {
         padding-left: 0;
@@ -214,6 +248,70 @@
     .featureContent1 {
         padding-left: 0;
     }
+
+    /* Why Choose Invock */
+    .wic {
+        padding: 100px 20px 100px 20px;
+    }
+    .wic-content {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    /* sff */
+    .sff {
+        height: 100%;
+        padding: 100px 20px 100px 20px;
+    }
+
+    /* Testimonials */
+    .testimonials {
+        height: 100%;
+        padding: 100px 20px 100px 20px;
+    }
+
+    /* Blog */
+
+    .blog {
+        height: 100%;
+        padding: 50px 20px 100px 20px;
+    }
+
+    .blog-content .card-body {
+        padding: 50px;
+    }
+
+    .blog-content .card-body .card-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .blog-content .card-body .card-text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card {
+        background-color: #F1F3F7;
+        ;
+        border-radius: 25px;
+    }
+
+    .card-img-top {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    .blog-btn {
+        border-radius: 40px;
+    }
+
 }
 
 /* iPads (landscape) ----------- */
@@ -339,28 +437,4 @@
     a:hover {
         color: #2A2A2A;
     }
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
-
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width : 1824px) {
-}
- 
-/* iPhone 5 (portrait &amp; landscape)----------- */
-@media only screen and (max-width : 568px) {
-
-}
- 
-/* iPhone 5 (landscape)----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
-
-}
- 
-/* iPhone 5 (portrait)----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
-
 }

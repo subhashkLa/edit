@@ -3,7 +3,7 @@
 }
 
 body {
-    /* padding: 0px 130px 0px 130px; */
+    padding: 0;
     margin: 0;
     font-family: 'Poppins';
     font-style: normal;
@@ -73,6 +73,26 @@ a:hover {
     color: #2A2A2A;
 }
 
+.title {
+    text-align: center;
+}
+
+.title::after {
+    content: "";
+    width: 60px;
+    height: 5px;
+    display: block;
+    margin: 10px auto;
+    background-color: #6DD568;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #818181;
+}
+
 /* Header */
 
 header {
@@ -82,7 +102,7 @@ header {
 }
 
 header {
-    padding: 20px 112px 0px 112px;
+    padding: 20px 130px 0px 130px;
 }
 
 .navbar {
@@ -151,36 +171,66 @@ header {
     z-index: -1;
 }
 
+.img-thumbnail {
+    border: none;
+}
+
 /* Feature */
 
 .feature {
     height: 100%;
-    padding: 200px 0px 200px 0px;
+    padding: 90px 130px 0px 130px;
 }
 
-.title {
-    text-align: center;
-}
-
-.title::after {
-    content: "";
-    width: 60px;
-    height: 5px;
-    display: block;
-    margin: 10px auto 0;
-    background-color: #6DD568;
-}
+/* More Feature */
 
 .moreFeature {
     height: 100%;
-    padding: 100px 0px;
+    padding: 200px 0px;
 }
 
 .moreFeature-Content {
     width: 100%;
     height: 329px;
-    background-color:red;
+    background-color: #F1F3F7;
     border-radius: 40px;
+}
+
+.carousel {
+    border-radius: 40px;
+    padding: 30px 60px 30px 60px;
+    background-color: #F1F3F7;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+
+.owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+
+.owl-dots button.owl-dot:focus {
+    outline: none;
 }
 
 .featureImg {
@@ -203,7 +253,7 @@ header {
 
 .wic {
     height: 100%;
-    padding: 200px 0px 200px 0px;
+    padding: 100px 230px 100px 230px;
 }
 
 .wic-content {
@@ -213,30 +263,82 @@ header {
     background-color: #F1F3F7;
 }
 
-.circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #818181;
-}
-
-/* sff */
+/* Some Fun Fact */
 .sff {
     height: 100%;
-    padding: 200px 0px 200px 0px;
+    padding: 100px 230px 100px 230px;
 }
+
+.sff-content {
+    width: 100%;
+    border-radius: 40px;
+    padding: 30px 10px 10px 30px;
+    background-color: #F1F3F7;
+}
+
+.sff-content {
+    height: 100%;
+}
+
+.progress {
+    position: relative;
+    margin: 4px;
+    float:left;
+    text-align: center;
+}
+.barOverflow { 
+    position: relative;
+    overflow: hidden;
+    width: 90px;
+    height: 45px;
+    margin-bottom: -14px;
+}
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 5px solid #eee;
+    border-bottom-color: #0bf;
+    border-right-color: #0bf;
+}
+
+
 /* Testimonials */
 
 .testimonials {
     height: 100%;
-    padding: 200px 0px 200px 0px;
+    padding: 100px 230px 100px 230px;
 }
 
 /* Blog */
 
 .blog {
     height: 100%;
-    padding: 200px 0px 200px 0px;
+    padding: 100px 230px 100px 230px;
+}
+
+.blog-content .card-body {
+    padding: 50px;
+}
+
+.blog-content .card-body .card-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.blog-content .card-body .card-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .card {
@@ -255,6 +357,11 @@ header {
 }
 
 /* Contact Us */
+
+.footer {
+    height: 100%;
+    padding: 100px 230px 100px 230px;
+}
 
 #contact {
     width: 100%;
@@ -512,38 +619,3 @@ hr {
         width: 99%;
     }
 }
-
-
-.owl-nav button {
-    position: absolute;
-    top: 50%;
-    background-color: #000;
-    color: #fff;
-    margin: 0;
-    transition: all 0.3s ease-in-out;
-  }
-  .owl-nav button.owl-prev {
-    left: 0;
-  }
-  .owl-nav button.owl-next {
-    right: 0;
-  }
-  
-  .owl-dots {
-    text-align: center;
-    padding-top: 15px;
-  }
-  .owl-dots button.owl-dot {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    display: inline-block;
-    background: #ccc;
-    margin: 0 3px;
-  }
-  .owl-dots button.owl-dot.active {
-    background-color: #000;
-  }
-  .owl-dots button.owl-dot:focus {
-    outline: none;
-  }
