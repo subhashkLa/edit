@@ -86,6 +86,66 @@ a:hover {
     background-color: #818181;
 }
 
+.carousel {
+    border-radius: 40px;
+    padding: 30px 60px 30px 60px;
+    background-color: #F1F3F7;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+
+.owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+
+.owl-dots button.owl-dot:focus {
+    outline: none;
+}
+
+
+/* Main Button */
+
+.main-btn {
+    display: inline-block;
+    padding: 10px 35px;
+    margin: 3px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+.main-btn {
+    background: #6195FF;
+    color: #FFF;
+}
+
+.main-btn:hover {
+    opacity: 0.8;
+}
+
+
 /* Header */
 
 header {
@@ -157,6 +217,7 @@ header {
 
 .home-content {
     padding: 100px 0px 0px 0px;
+    text-align: center;
 }
 
 .home-content h1 {
@@ -164,40 +225,64 @@ header {
     color: #2A2A2A;
     font-weight: 700;
 }
+
 .home-content p {
     font-weight: 300;
     font-size: 1.375em;
     color: #2A2A2A;
 }
 
-.bg-color {
-    display: none;
-}
+
+/* Hidden Header */
 
 .img-thumbnail {
     border: none;
 }
 
+.bg-color {
+    display: none;
+}
+
+.bg-btn {
+    display: none;
+}
+
+
 /* Feature */
 
 .feature {
+    width: 100%;
     height: 100%;
+    text-align: center;
     padding: 90px 130px 0px 130px;
 }
 
+.feature-container {
+    padding: 100px 0px 0px 0px;
+}
+
+feature-container2 {
+    text-align: right;
+}
+
 .feature-content {
-    padding-top: 140px;
+    text-align: center;
+}
+
+.feature-content h2 {
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .feature-header1 {
     display: none;
+    padding-bottom: 30px;
 }
 
 .featureContent {
     text-align: center;
     padding-top: 80px;
 }
-
 
 .featureContent h2 {
     font-size: 1.875em;
@@ -229,7 +314,6 @@ header {
 }
 
 
-
 /* More Feature */
 
 .moreFeature {
@@ -244,64 +328,16 @@ header {
     border-radius: 40px;
 }
 
-.carousel {
-    border-radius: 40px;
-    padding: 30px 60px 30px 60px;
-    background-color: #F1F3F7;
-}
-
-.owl-nav button {
-    position: absolute;
-    top: 50%;
-    background-color: #000;
-    color: #fff;
-    margin: 0;
-    transition: all 0.3s ease-in-out;
-}
-
-.owl-dots {
-    text-align: center;
-    padding-top: 15px;
-}
-
-.owl-dots button.owl-dot {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    display: inline-block;
-    background: #ccc;
-    margin: 0 3px;
-}
-
-.owl-dots button.owl-dot.active {
-    background-color: #000;
-}
-
-.owl-dots button.owl-dot:focus {
-    outline: none;
-}
-
-.featureImg {
-    padding-left: 20%;
-}
-
-.featureContent {
-    padding-right: 20%;
-}
-
-.featureImg1 {
-    padding: 10% 0 10% 14%;
-}
-
-.featureContent1 {
-    padding-left: 30%;
-}
 
 /* Why Choose Invock */
 
 .wic {
     height: 100%;
     padding: 100px 230px 100px 230px;
+}
+
+.wic-header-content {
+    padding: 30px 0px 30px 0px;
 }
 
 .wic-content {
@@ -311,7 +347,9 @@ header {
     background-color: #F1F3F7;
 }
 
+
 /* Some Fun Fact */
+
 .sff {
     height: 100%;
     padding: 100px 230px 100px 230px;
@@ -328,32 +366,6 @@ header {
     height: 100%;
 }
 
-.progress {
-    position: relative;
-    margin: 4px;
-    float:left;
-    text-align: center;
-}
-.barOverflow { 
-    position: relative;
-    overflow: hidden;
-    width: 90px;
-    height: 45px;
-    margin-bottom: -14px;
-}
-.bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    box-sizing: border-box;
-    border: 5px solid #eee;
-    border-bottom-color: #0bf;
-    border-right-color: #0bf;
-}
-
 
 /* Testimonials */
 
@@ -361,6 +373,11 @@ header {
     height: 100%;
     padding: 100px 230px 100px 230px;
 }
+
+.testimonialsView {
+    display: none;
+}
+
 
 /* Blog */
 
@@ -404,266 +421,82 @@ header {
     border-radius: 40px;
 }
 
-/* Contact Us */
 
-.footer {
-    height: 100%;
-    padding: 100px 230px 100px 230px;
-}
+/* Contact us */
 
-#contact {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    padding-bottom: 200px;
-}
-
-.section-header {
+.contact {
+    margin: 15px 0px;
     text-align: center;
-    margin: 0 auto;
-    padding-top: 50px;
-    margin-bottom: 50px;
-    font: 300 60px 'Oswald', sans-serif;
-    letter-spacing: 6px;
-    color: #fff;
-    margin-bottom: 25px;
+    height: 100%;
 }
 
-.contact-wrapper {
-    margin: 0 auto;
-    padding-top: 20px;
-    position: relative;
-    max-width: 800px;
+.contact i {
+    font-size: 36px;
+    color: #6195FF;
+    margin-bottom: 20px;
 }
 
-/* Begin Left Contact Page */
-
-.form-horizontal {
-    float: left;
-    max-width: 400px;
-    font-family: 'Lato';
-    font-weight: 400;
-}
-
-.form-control, textarea {
-    max-width: 400px;
-    color: #fff;
-    letter-spacing: 1px;
-}
-
-.send-button {
-    margin-top: 15px;
-    height: 34px;
-    width: 400px;
-    overflow: hidden;
-    transition: all .2s ease-in-out;
-}
-
-.button {
-    width: 400px;
-    height: 34px;
-    transition: all .2s ease-in-out;
-}
-
-.send-text {
-    display: block;
-    margin-top: 10px;
-    font: 300 14px 'Lato', sans-serif;
-    letter-spacing: 2px;
-}
-
-.button:hover {
-    transform: translate3d(0px, -29px, 0px);
-}
-
-/* Begin Right Contact Page */
-
-.direct-contact-container {
-    max-width: 400px;
-    float: right;
-    margin-top: 5px;
-}
-
-/* Location, Phone, Email Section */
-
-.contact-list {
-    list-style-type: none;
-    margin-left: -30px;
-    padding-right: 20px;
-}
-
-.list-item {
-    line-height: 4;
-    color: #aaa;
-}
-
-.contact-text {
-    font: 300 18px 'Lato', sans-serif;
-    letter-spacing: 1.9px;
-    color: #bbb;
-}
-
-.place {
-    margin-left: 62px;
-}
-
-.phone {
-    margin-left: 56px;
-}
-
-.gmail {
-    margin-left: 53px;
-}
-
-.contact-text a {
-    color: #bbb;
-    text-decoration: none;
-    transition-duration: 0.2s;
-}
-
-.contact-text a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Social Media Icons */
-
-.social-media-list {
-    position: relative;
-    font-size: 2.3rem;
+.contact-form {
     text-align: center;
-    width: 100%;
+    margin-top: 40px;
 }
 
-.social-media-list li a {
-    color: #fff;
+.contact-form .input {
+    margin-bottom: 20px;
 }
 
-.social-media-list li {
+.contact-form .input:nth-child(1),
+.contact-form .input:nth-child(2) {
+    width: calc(50% - 10px);
+}
+
+.contact-form .input:nth-child(2) {
+    margin-left: 15px;
+}
+
+
+/*------------------------------------*\
+	Footer
+\*------------------------------------*/
+
+#footer {
     position: relative;
-    top: 0;
-    left: -20px;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo>a>img {
+    max-height: 80px;
+}
+
+.footer-follow {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-follow li {
     display: inline-block;
-    height: 70px;
-    width: 70px;
-    margin: 10px auto;
-    line-height: 70px;
-    border-radius: 50%;
-    color: #fff;
-    background-color: rgb(27, 27, 27);
-    cursor: pointer;
-    transition: all .2s ease-in-out;
+    margin-right: 10px;
+    margin-bottom: 13px;
 }
 
-.social-media-list li:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    border-radius: 50%;
-    opacity: 0;
-    box-shadow: 0 0 0 1px #fff;
-    transition: all .2s ease-in-out;
-}
-
-.social-media-list li:hover {
-    background-color: #fff;
-}
-
-.social-media-list li:hover:after {
-    opacity: 1;
-    transform: scale(1.12);
-    transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
-}
-
-.social-media-list li:hover a {
-    color: #111;
-}
-
-.copyright {
-    font: 200 14px 'Oswald', sans-serif;
-    color: #555;
-    letter-spacing: 1px;
+.footer-follow li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
+    border-radius: 3px;
+    background-color: #6195FF;
+    color: #FFF;
 }
 
-hr {
-    border-color: rgba(255, 255, 255, .8);
-    ;
-}
-
-/* Begin Media Queries*/
-
-@media screen and (max-width: 760px) {
-    #contact {
-        height: 1000px;
-    }
-    .section-header {
-        font-size: 65px;
-    }
-    .direct-contact-container, .form-horizontal {
-        float: none;
-        margin: 10px auto;
-    }
-    .direct-contact-container {
-        margin-top: 60px;
-        max-width: 300px;
-    }
-    .social-media-list li {
-        height: 60px;
-        width: 60px;
-        line-height: 60px;
-    }
-    .social-media-list li:after {
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
-    }
-}
-
-@media screen and (max-width: 569px) {
-    #contact {
-        height: 1200px;
-    }
-    .section-header {
-        font-size: 50px;
-    }
-    .direct-contact-container, .form-wrapper {
-        float: none;
-        margin: 0 auto;
-    }
-    .form-control, textarea {
-        max-width: 340px;
-        margin: 0 auto;
-    }
-    .name, .email, textarea {
-        width: 280px;
-    }
-    .direct-contact-container {
-        margin-top: 60px;
-        max-width: 280px;
-    }
-    .social-media-list {
-        left: 0;
-    }
-    .social-media-list li {
-        height: 55px;
-        width: 55px;
-        line-height: 55px;
-        font-size: 2rem;
-    }
-    .social-media-list li:after {
-        width: 55px;
-        height: 55px;
-        line-height: 55px;
-    }
-}
-
-@media screen and (max-width: 410px) {
-    .send-button {
-        width: 99%;
-    }
+.footer-copyright p {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
 }

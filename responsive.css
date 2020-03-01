@@ -1,12 +1,20 @@
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width: 1200px) {
     body {
         padding: 0;
+        overflow-x: hidden;
     }
-
     /* Header */
     header {
-        height: 100vh;
-        padding: 0px 20px 10px 20px;
+        width: 105%;
+        height: 100%;
+        left: -3%;
+        background: linear-gradient(143.22deg, #6DD568 19.21%, #20611D 93.4%);
+        position: relative;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 50% 20%;
+        border-bottom-right-radius: 50% 20%;
+        padding: 0px 0px 40px 0px;
     }
     .navbar {
         position: fixed;
@@ -16,125 +24,118 @@
         padding: 10px 10px 0px 10px;
         background-color: #FFFFFF;
     }
+    /* Hidden header content */
     .navbar-nav {
         display: none;
     }
-/* 
-    /* .bg-color::after {
-        content: "";
-        display: block;
-        width: 100px;
-        height: 100px;
-        margin: 500px auto 0;
-        background-color: #F1F3F7;
-    } */ */
-    .home-content {
-        padding-top: 20px 0px 0px 190px;2
-    }
-    .home-content h1 {
-        /* color: white; */
-        color: #2A2A2A;
-        font-size: 2.000em;
-    }
-
-    .home-content p {
-        color: white;
-        color: #2A2A2A;
-        font-size: 0.875em;
-    }
-
     .header-img {
         display: none;
     }
-
+    .home-btn {
+        display: none;
+    }
+    /* Hidden header content */
+    .home-content {
+        padding: 100px 0px 0px 0px;
+        text-align: center;
+    }
+    .home-content h1 {
+        color: white;
+        font-size: 2em;
+        line-height: 1.75;
+        font-weight: 600;
+        padding: 20px 10px 40px 30px;
+    }
+    .home-content p {
+        display: none;
+    }
     .bars {
         display: block;
     }
-
+    .bg-color {
+        background-color: #FFFFFF;
+        border-radius: 40px;
+        box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+        padding: 10px 0 0 0;
+    }
+    .bg-color {
+        display: block;
+        position: relative;
+        margin-top: -102px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .bg-btn {
+        display: inline-block;
+        width: 221px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #FFFFFF;
+        background: #E86111;
+        box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(50, 50, 71, 0.08);
+    }
     /* Feature */
     .feature {
-        padding: 0px 10px 100px 10px;
+        padding: 80px 10px 100px 10px;
     }
-
+    .feature-container2 {
+        text-align: center;
+    }
     .feature-header1 {
         display: block;
         font-size: 1.375em;
         font-weight: 300;
     }
-
-    .featureContent .feature-header2 {
-        display: none;
-    }
-
-    .featureContent p {
-        /* padding: 20px 50px 0px 50px; */
-        font-size: 0.875em;
-        font-weight: 300;
-        line-height: 45px;
-    }
-
-    /* Why Choose Invock */
-    .wic {
-        padding: 100px 20px 100px 20px;
-    }
-    .wic-content {
-        margin-top: 30px;
+    .feature-header1 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
         text-align: center;
     }
-
-    /* sff */
-    .sff {
-        height: 100%;
-        padding: 100px 20px 100px 20px;
+    .feature-header2 {
+        display: none;
     }
-
-    /* Testimonials */
-    .testimonials {
-        height: 100%;
-        padding: 100px 20px 100px 20px;
-    }
-
-    /* Blog */
-
-    .blog {
-        height: 100%;
-        padding: 50px 20px 100px 20px;
-    }
-
-    .blog-content .card-body {
-        padding: 50px;
-    }
-
-    .blog-content .card-body .card-title {
+    .feature-content p {
         font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 27px;
-    }
-
-    .blog-content .card-body .card-text {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 300;
+        padding: 20px 0px 0px 0px;
         font-size: 14px;
+        font-weight: 300;
         line-height: 21px;
     }
-
-    .card {
-        background-color: #F1F3F7;
-        ;
-        border-radius: 25px;
+    /* More Feature */
+    .moreFeature {
+        height: 100%;
+        padding: 50px 0px;
     }
-
-    .card-img-top {
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
+    /* Why Choose us */
+    .wic {
+        padding: 100px 20px 20px 20px;
     }
-
-    .blog-btn {
+    .wic-content {
+        width: 100%;
         border-radius: 40px;
+        padding: 30px 10px 10px 30px;
+        background-color: #F1F3F7;
     }
-
+    /* Some Fun Fact */
+    .sff {
+        height: 100%;
+        padding: 100px 20px 20px 20px;
+    }
+    /* Testimonials */
+    .testimonials {
+        display: none;
+    }
+    .testimonialsView {
+        display: block;
+        height: 100%;
+        padding: 100px 20px 20px 20px;
+    }
+    /* Blog */
+    .blog {
+        height: 100%;
+        padding: 100px 20px 20px 20px;
+    }
 }
-

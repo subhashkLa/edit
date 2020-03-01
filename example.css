@@ -6,7 +6,12 @@ body {
     color: #868f9b
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     margin-top: 0;
@@ -41,7 +46,8 @@ a {
     transition: .2s opacity
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     text-decoration: none;
     outline: none;
     opacity: .8;
@@ -66,7 +72,8 @@ a:hover, a:focus {
     color: #fff
 }
 
-ul, ol {
+ul,
+ol {
     margin: 0;
     padding: 0;
     list-style: none
@@ -140,7 +147,14 @@ ul, ol {
     margin: 20px auto 0
 }
 
-input[type=text], input[type=email], input[type=password], input[type=number], input[type=date], input[type=url], input[type=tel], textarea {
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number],
+input[type=date],
+input[type=url],
+input[type=tel],
+textarea {
     height: 40px;
     width: 100%;
     border: none;
@@ -159,12 +173,21 @@ textarea {
     resize: vertical
 }
 
-input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, input[type=number]:focus, input[type=date]:focus, input[type=url]:focus, input[type=tel]:focus, textarea:focus {
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=date]:focus,
+input[type=url]:focus,
+input[type=tel]:focus,
+textarea:focus {
     border-color: #6195ff;
     opacity: 1
 }
 
-.main-btn, .white-btn, .outline-btn {
+.main-btn,
+.white-btn,
+.outline-btn {
     display: inline-block;
     padding: 10px 35px;
     margin: 3px;
@@ -190,7 +213,9 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, inp
     border-color: #6195ff
 }
 
-.main-btn:hover, .white-btn:hover, .outline-btn:hover {
+.main-btn:hover,
+.white-btn:hover,
+.outline-btn:hover {
     opacity: .8
 }
 
@@ -198,7 +223,8 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, inp
     padding: 0
 }
 
-.navbar-brand .logo, .navbar-brand .logo-alt {
+.navbar-brand .logo,
+.navbar-brand .logo-alt {
     max-height: 50px;
     display: block
 }
@@ -267,7 +293,9 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, inp
     #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a {
         color: #fff
     }
-    .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
+    .main-nav>li>a:hover,
+    .main-nav>li>a:focus,
+    .main-nav>li.active>a {
         background: 0 0;
         color: #6195ff
     }
@@ -280,7 +308,8 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, inp
         -webkit-transition: .2s width;
         transition: .2s width
     }
-    .main-nav>li>a:hover:after, .main-nav>li.active>a:after {
+    .main-nav>li>a:hover:after,
+    .main-nav>li.active>a:after {
         width: 100%
     }
     .has-dropdown {
@@ -389,7 +418,8 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, inp
     .main-nav>li.active {
         border-left: 6px solid #6195ff
     }
-    .main-nav li a:hover, .main-nav li a:focus {
+    .main-nav li a:hover,
+    .main-nav li a:focus {
         background-color: #6195ff;
         color: #fff;
         opacity: 1
@@ -448,12 +478,15 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, inp
     width: 25px
 }
 
-.nav-collapse span:before, .nav-collapse span:after {
+.nav-collapse span:before,
+.nav-collapse span:after {
     content: "";
     display: block
 }
 
-.nav-collapse span, .nav-collapse span:before, .nav-collapse span:after {
+.nav-collapse span,
+.nav-collapse span:before,
+.nav-collapse span:after {
     height: 4px;
     background: #10161a;
     -webkit-transition: .2s all;
@@ -1145,11 +1178,14 @@ header {
     margin: 40px 0
 }
 
-.reply-form form .input, .reply-form form .input, .reply-form form textarea {
+.reply-form form .input,
+.reply-form form .input,
+.reply-form form textarea {
     margin-bottom: 20px
 }
 
-.reply-form form .input, .reply-form form .input {
+.reply-form form .input,
+.reply-form form .input {
     width: calc(50% - 10px);
     display: inline-block
 }
@@ -1278,7 +1314,8 @@ header {
     margin-bottom: 20px
 }
 
-.contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
+.contact-form .input:nth-child(1),
+.contact-form .input:nth-child(2) {
     width: calc(50% - 10px)
 }
 
@@ -1334,7 +1371,10 @@ header {
     .section-header h2.title {
         font-size: 31.5px
     }
-    .main-btn, .default-btn, .outline-btn, .white-btn {
+    .main-btn,
+    .default-btn,
+    .outline-btn,
+    .white-btn {
         padding: 8px 22px;
         font-size: 14px
     }
@@ -1359,13 +1399,15 @@ header {
     #numbers [class*=col-xs] {
         width: 100%
     }
-    .contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
+    .contact-form .input:nth-child(1),
+    .contact-form .input:nth-child(2) {
         width: 100%
     }
     .contact-form .input:nth-child(2) {
         margin-left: 0
     }
-    .reply-form form .input, .reply-form form .input {
+    .reply-form form .input,
+    .reply-form form .input {
         width: 100%
     }
     .reply-form form .input:nth-child(2) {
@@ -1552,5 +1594,548 @@ header {
     100% {
         -webkit-transform: scale(0);
         transform: scale(0)
+    }
+}
+
+
+/* My code */
+
+
+/* More Feature */
+
+.moreFeature {
+    height: 100%;
+    padding: 200px 0px;
+}
+
+.moreFeature-Content {
+    width: 100%;
+    height: 329px;
+    background-color: #F1F3F7;
+    border-radius: 40px;
+}
+
+.carousel {
+    border-radius: 40px;
+    padding: 30px 60px 30px 60px;
+    background-color: #F1F3F7;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+
+.owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+
+.owl-dots button.owl-dot:focus {
+    outline: none;
+}
+
+.featureImg {
+    padding-left: 20%;
+}
+
+.featureContent {
+    padding-right: 20%;
+}
+
+.featureImg1 {
+    padding: 10% 0 10% 14%;
+}
+
+.featureContent1 {
+    padding-left: 30%;
+}
+
+
+/* Some Fun Fact */
+
+.sff {
+    height: 100%;
+    padding: 100px 230px 100px 230px;
+}
+
+.sff-content {
+    width: 100%;
+    border-radius: 40px;
+    padding: 30px 10px 10px 30px;
+    background-color: #F1F3F7;
+}
+
+.sff-content {
+    height: 100%;
+}
+
+.progress {
+    position: relative;
+    margin: 4px;
+    float: left;
+    text-align: center;
+}
+
+.barOverflow {
+    position: relative;
+    overflow: hidden;
+    width: 90px;
+    height: 45px;
+    margin-bottom: -14px;
+}
+
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 5px solid #eee;
+    border-bottom-color: #0bf;
+    border-right-color: #0bf;
+}
+
+
+/* Blog */
+
+.blog {
+    height: 100%;
+    padding: 100px 230px 100px 230px;
+}
+
+.blog-content .card-body {
+    padding: 50px;
+}
+
+.blog-content .card-body .card-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.blog-content .card-body .card-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.card {
+    background-color: #F1F3F7;
+    ;
+    border-radius: 25px;
+}
+
+.card-img-top {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.blog-btn {
+    border-radius: 40px;
+}
+
+
+/* Contact Us */
+
+.footer {
+    height: 100%;
+    padding: 100px 230px 100px 230px;
+}
+
+#contact {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 200px;
+}
+
+.section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font: 300 60px 'Oswald', sans-serif;
+    letter-spacing: 6px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.contact-wrapper {
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+    max-width: 800px;
+}
+
+
+/* Begin Left Contact Page */
+
+.form-horizontal {
+    float: left;
+    max-width: 400px;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+.form-control,
+textarea {
+    max-width: 400px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.button {
+    width: 400px;
+    height: 34px;
+    transition: all .2s ease-in-out;
+}
+
+.send-text {
+    display: block;
+    margin-top: 10px;
+    font: 300 14px 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    transform: translate3d(0px, -29px, 0px);
+}
+
+
+/* Begin Right Contact Page */
+
+.direct-contact-container {
+    max-width: 400px;
+    float: right;
+    margin-top: 5px;
+}
+
+
+/* Location, Phone, Email Section */
+
+.contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+}
+
+.list-item {
+    line-height: 4;
+    color: #aaa;
+}
+
+.contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+}
+
+.place {
+    margin-left: 62px;
+}
+
+.phone {
+    margin-left: 56px;
+}
+
+.gmail {
+    margin-left: 53px;
+}
+
+.contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Social Media Icons */
+
+.social-media-list {
+    position: relative;
+    font-size: 2.3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.social-media-list li a {
+    color: #fff;
+}
+
+.social-media-list li {
+    position: relative;
+    top: 0;
+    left: -20px;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    margin: 10px auto;
+    line-height: 70px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+    background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+    opacity: 1;
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+    color: #111;
+}
+
+.copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+hr {
+    border-color: rgba(255, 255, 255, .8);
+    ;
+}
+
+
+/* Begin Media Queries*/
+
+@media screen and (max-width: 760px) {
+    #contact {
+        height: 1000px;
+    }
+    .section-header {
+        font-size: 65px;
+    }
+    .direct-contact-container,
+    .form-horizontal {
+        float: none;
+        margin: 10px auto;
+    }
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 300px;
+    }
+    .social-media-list li {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+    .social-media-list li:after {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    #contact {
+        height: 1200px;
+    }
+    .section-header {
+        font-size: 50px;
+    }
+    .direct-contact-container,
+    .form-wrapper {
+        float: none;
+        margin: 0 auto;
+    }
+    .form-control,
+    textarea {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    .name,
+    .email,
+    textarea {
+        width: 280px;
+    }
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 280px;
+    }
+    .social-media-list {
+        left: 0;
+    }
+    .social-media-list li {
+        height: 55px;
+        width: 55px;
+        line-height: 55px;
+        font-size: 2rem;
+    }
+    .social-media-list li:after {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .send-button {
+        width: 99%;
+    }
+}
+
+
+/* my responsive */
+
+@media only screen and (max-width: 1200px) {
+    body {
+        padding: 0;
+    }
+    /* Header */
+    header {
+        height: 100vh;
+        padding: 0px 20px 10px 20px;
+    }
+    .navbar {
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        padding: 10px 10px 0px 10px;
+        background-color: #FFFFFF;
+    }
+    .navbar-nav {
+        display: none;
+    }
+    /* 
+    /* .bg-color::after {
+        content: "";
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 500px auto 0;
+        background-color: #F1F3F7;
+    } */
+    */ .home-content {
+        padding-top: 20px 0px 0px 190px;
+        2
+    }
+    .home-content h1 {
+        /* color: white; */
+        color: #2A2A2A;
+        font-size: 2.000em;
+    }
+    .home-content p {
+        color: white;
+        color: #2A2A2A;
+        font-size: 0.875em;
+    }
+    .header-img {
+        display: none;
+    }
+    .bars {
+        display: block;
+    }
+    /* Why Choose Invock */
+    .wic {
+        padding: 100px 20px 100px 20px;
+    }
+    .wic-content {
+        margin-top: 30px;
+        text-align: center;
+    }
+    /* sff */
+    .sff {
+        height: 100%;
+        padding: 100px 20px 100px 20px;
+    }
+    /* Testimonials */
+    .testimonials {
+        height: 100%;
+        padding: 100px 20px 100px 20px;
+    }
+    /* Blog */
+    .blog {
+        height: 100%;
+        padding: 50px 20px 100px 20px;
+    }
+    .blog-content .card-body {
+        padding: 50px;
+    }
+    .blog-content .card-body .card-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .blog-content .card-body .card-text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .card {
+        background-color: #F1F3F7;
+        ;
+        border-radius: 25px;
+    }
+    .card-img-top {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    .blog-btn {
+        border-radius: 40px;
     }
 }
