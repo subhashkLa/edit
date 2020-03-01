@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 978px) {
     body {
         padding: 0;
         overflow-x: hidden;
@@ -113,28 +113,49 @@
     .wic {
         padding: 100px 20px 20px 20px;
     }
+    .wic .container > .title {
+        font-size: 1.555em;
+    }
     .wic-content {
         width: 100%;
         border-radius: 40px;
         padding: 30px 10px 10px 30px;
         background-color: #F1F3F7;
     }
+    .wic-header-content {
+        font-size: 19px;
+        font-weight: 300;
+        text-align: center;
+        font-family: 'Poppins';
+        padding: 30px 0px 30px 0px;
+    }
     /* Some Fun Fact */
     .sff {
         height: 100%;
         padding: 100px 20px 20px 20px;
     }
+    .sff-p {
+        font-size: 19px;
+        font-weight: 300;
+        text-align: center;
+        font-family: 'Poppins';
+        padding: 20px 0px 20px 0px;
+    }
+
+    /* Blog */
+    .blog {
+        height: 100%;
+        padding: 100px 20px 20px 20px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
     /* Testimonials */
     .testimonials {
         display: none;
     }
     .testimonialsView {
         display: block;
-        height: 100%;
-        padding: 100px 20px 20px 20px;
-    }
-    /* Blog */
-    .blog {
         height: 100%;
         padding: 100px 20px 20px 20px;
     }
