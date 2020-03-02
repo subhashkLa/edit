@@ -13,26 +13,30 @@ body {
 h1 {
     font-family: 'Poppins';
     color: #2A2A2A;
-    font-size: 2.750em;
+    font-size: 3.375em;
     font-weight: 700;
 }
 
 h2 {
+    font-size: 2.25em;
     font-family: 'Poppins';
     color: #2A2A2A;
 }
 
 h3 {
+    font-size: 1.313em;
     font-family: 'Poppins';
     color: #2A2A2A;
 }
 
 h4 {
+    font-size: 1.125em;
     font-family: 'Poppins';
     color: #2A2A2A;
 }
 
 h5 {
+    font-size: 1em;
     font-family: 'Poppins';
     color: #2A2A2A;
 }
@@ -45,7 +49,7 @@ h6 {
 p {
     font-family: 'Poppins';
     font-weight: 300;
-    font-size: 1.375em;
+    font-size: 1em;
     color: #2A2A2A;
 }
 
@@ -221,14 +225,14 @@ header {
 }
 
 .home-content h1 {
-    font-size: 2.750em;
+    font-size: 2.25em;
     color: #2A2A2A;
     font-weight: 700;
 }
 
 .home-content p {
     font-weight: 300;
-    font-size: 1.375em;
+    font-size: 1em;
     color: #2A2A2A;
 }
 
@@ -285,7 +289,7 @@ header {
 }
 
 .featureContent h2 {
-    font-size: 1.875em;
+    font-size: 2.25em;
     font-weight: 700;
 }
 
@@ -302,7 +306,7 @@ header {
 }
 
 .featureContent2 h2 {
-    font-size: 1.875em;
+    font-size: 2.25em;
     font-weight: 700;
 }
 
@@ -354,7 +358,7 @@ header {
 }
 
 .wic-content  h3 {
-    font-size: 20px;
+    font-size: 1.313px;
 }
 
 
@@ -414,13 +418,13 @@ header {
 }
 
 .test-content h2 {
-    font-size: 22px;
+    font-size: 2.25em;
     font-weight: 600;
     font-family: 'Poppins';
 }
 
 .test-content h4 {
-    font-size: 12px;
+    font-size: 1.125em;
     font-weight: 600;
     font-family: 'Poppins';
 }

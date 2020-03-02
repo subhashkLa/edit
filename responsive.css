@@ -1,8 +1,52 @@
 @media only screen and (max-width: 978px) {
+
+
+
     body {
         padding: 0;
         overflow-x: hidden;
     }
+    
+    h1 {
+        font-family: 'Poppins';
+        color: #2A2A2A;
+        font-size: 2.25em;
+       
+    }
+    
+    h2 {
+        font-size: 1.938em;
+        font-family: 'Poppins';
+        color: #2A2A2A;
+    }
+    
+    h3 {
+        font-size: 1.313em;
+        font-family: 'Poppins';
+        color: #2A2A2A;
+    }
+    
+    h4 {
+        font-size: 1.125em;
+        font-family: 'Poppins';
+        color: #2A2A2A;
+    }
+    
+    h5 {
+        font-size: 1em;
+        font-family: 'Poppins';
+        color: #2A2A2A;
+    }
+    
+    h6 {
+        font-family: 'Poppins';
+        color: #2A2A2A;
+    }
+    
+
+
+
+
     /* Header */
     header {
         width: 105%;
@@ -41,7 +85,7 @@
     }
     .home-content h1 {
         color: white;
-        font-size: 2em;
+        font-size: 2.25em;
         line-height: 1.75;
         font-weight: 600;
         padding: 20px 10px 40px 30px;
