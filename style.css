@@ -86,6 +86,8 @@ a:hover {
 .circle {
     width: 200px;
     height: 200px;
+    text-align: center;
+    padding: 40px 20px 40px 20px;
     border-radius: 50%;
     background-color: #818181;
 }
@@ -333,6 +335,7 @@ header {
 }
 
 
+
 /* Why Choose Invock */
 
 .wic {
@@ -475,6 +478,7 @@ header {
 .blog-btn {
     border-radius: 40px;
 }
+
 
 
 /* Contact us */
